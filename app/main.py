@@ -1,5 +1,8 @@
-from fastapi import FastAPI
-from app.database import router as tarefas_router
+from fastapi import FastAPI, 
+from app.routers.router import router as tarefas_router
+
+
+
 
 app = FastAPI(
     title="API - Segunda Chamada",
